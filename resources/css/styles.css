@@ -1,0 +1,42 @@
+.row-heading {
+  margin: 20px 0;
+}
+
+.orange-btn {
+  background-color: #FFD700;
+  border-color: #FFD700;
+}
+.orange-btn:hover {
+  background-color: #FF8C00;
+  border-color: #FF8C00;
+}
+
+footer {
+  color: #FFF;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.social-icons {
+  color: 	#000;
+}
+
+.projects-grid {
+  margin: 0 20px;
+}
+
+.project-row {
+  margin-bottom: 20px;
+}
+
+#nav-padding {
+  padding: 0 64px;
+}
+
+.contact-sect-margin {
+  margin-bottom: 32px;
+}
+
+#remove-akward-padding {
+  padding-right: 0;
+}

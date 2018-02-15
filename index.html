@@ -17,9 +17,9 @@
 </head>
 
 <body>
-
-	<header>
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<!-- HEADER -->
+	<header class="fluid-container">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav-padding">
 		  <a class="navbar-brand" href="#">Don't Panic UX Web Development</a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
@@ -48,15 +48,16 @@
 		  </div> <!-- /.collapse navbar-collapse .nav .justify-content-end -->
 		</nav>
 	</header>
-
+<!-- MAIN CONTENT SECTIONS -->
 	<main>
-		<section>
-			<div class="jumbotron">
+		<section class="fluid-container">
+			<!-- JUMBOTRON -->
+			<div class="jumbotron text-center">
 				<div class="container">
 					<h1>Blake Arnsdorff: UX Designer &amp; Developer</h1>
 					<p>UX designer with a passion for developing responsive websites &amp; mobile applications.</p>
 					<p class="lead">
-  				  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  				  <a class="btn btn-primary btn-lg orange-btn" href="#" role="button">Learn more</a>
   				</p>
 				</div>  <!-- /.container -->
 			</div> <!-- /.jumbotron -->
@@ -64,7 +65,7 @@
 
 		<section>
 			<div class="fluid-container">
-				<div class="row">
+				<div class="row row-heading">
 				<!-- Skills Heading -->
 					<div class="col-sm-12">
 						<h1 class="text-center sect-title">Technical Skills</h1>
@@ -102,51 +103,56 @@
 
 			</div> <!-- /.container -->
 		</section>
-		<div class="row">
-		<!-- Projects Heading -->
-			<div class="col-sm-12">
-				<h1 class="text-center sect-title">Projects</h1>
-			</div>
-		</div><!-- /.row -->
+		<section class="projects-grid">
+			<div class="row row-heading">
+			<!-- Portfolio Heading -->
+				<div class="col-sm-12">
+					<h1 class="text-center sect-title">Portfolio</h1>
+				</div>
+			</div><!-- /.row -->
 
-		<!-- Photo Gallery 2 rows 3 cols -->
-		<div class="fluid-container">
+			<!-- Photo Gallery 2 rows 3 cols -->
+			<div class="fluid-container">
 
-			<div class="row">
-				<div class="col-sm-4">
-					<img src="resources/images/pexels-photo-326424.jpeg" alt="" class="rounded img-fluid">
-					<h4 class="text-center"><a href="#">Project Title</a></h4>
+				<div class="row">
 
-				</div>
-				<div class="col-sm-4">
-					<img src="resources/images/pexels-photo-326424.jpeg" alt="" class="rounded img-fluid">
-					<h4 class="text-center"><a href="#">Project Title</a></h4>
-				</div>
-				<div class="col-sm-4">
-					<img src="resources/images/pexels-photo-326424.jpeg" alt="" class="rounded img-fluid">
-					<h4 class="text-center"><a href="#">Project Title</a></h4>
-				</div>
-			</div> <!-- /.row -->
-			<div class="row">
-				<div class="col-sm-4">
-					<img src="resources/images/pexels-photo-326424.jpeg" alt="" class="rounded img-fluid">
-					<h4 class="text-center"><a href="#">Project Title</a></h4>
-				</div>
-				<div class="col-sm-4">
-					<img src="resources/images/pexels-photo-326424.jpeg" alt="" class="rounded img-fluid">
-					<h4 class="text-center"><a href="#">Project Title</a></h4>
-				</div>
-				<div class="col-sm-4">
-					<img src="resources/images/pexels-photo-326424.jpeg" alt="" class="rounded img-fluid">
-					<h4 class="text-center"><a href="#">Project Title</a></h4>
-				</div>
-			</div> <!-- /.row -->
-		</div> <!-- /.fluid-container -->
+					<div class="col-sm-4 project-row">
+						<h4 class="text-center project-titles"><a href="#">Project Title</a></h4>
+						<img src="resources/images/pexels-photo-326424.jpeg" alt="" class="rounded img-fluid">
+					</div>
 
-		<section>
+					<div class="col-sm-4">
+						<h4 class="text-center project-titles"><a href="#">Project Title</a></h4>
+						<img src="resources/images/pexels-photo-326424.jpeg" alt="" class="rounded img-fluid">
+					</div>
+
+					<div class="col-sm-4">
+						<h4 class="text-center project-titles"><a href="#">Project Title</a></h4>
+						<img src="resources/images/pexels-photo-326424.jpeg" alt="" class="rounded img-fluid">
+					</div>
+
+				</div> <!-- /.row -->
+				<div class="row project-row">
+					<div class="col-sm-4">
+						<h4 class="text-center project-titles"><a href="#">Project Title</a></h4>
+						<img src="resources/images/pexels-photo-326424.jpeg" alt="" class="rounded img-fluid">
+					</div>
+					<div class="col-sm-4">
+						<h4 class="text-center project-titles"><a href="#">Project Title</a></h4>
+						<img src="resources/images/pexels-photo-326424.jpeg" alt="" class="rounded img-fluid">
+					</div>
+					<div class="col-sm-4">
+						<h4 class="text-center project-titles"><a href="#">Project Title</a></h4>
+						<img src="resources/images/pexels-photo-326424.jpeg" alt="" class="rounded img-fluid">
+					</div>
+				</div> <!-- /.row -->
+			</div> <!-- /.fluid-container -->
+		</section>
+
+		<section class="contact-sect-margin">
 
 			<!-- Contact Section -->
-				<div class="row">
+				<div class="row row-heading">
 				<!-- Contact Heading -->
 					<div class="col-sm-12">
 						<h1 class="text-center">Contact</h1>
@@ -158,7 +164,7 @@
 						<div class="col-sm-6 col-lg-3">
 							<div class="text-center">
 							<a href="#">
-								<span class="fa fa-twitter fa-5x"></span>
+								<span class="fa fa-twitter fa-5x social-icons"></span>
 							</a>
 						</div>
 						</div>
@@ -166,7 +172,7 @@
 						<div class="col-sm-6 col-lg-3">
 							<div class="text-center">
 							<a href="#">
-								<span class="fa fa-envelope fa-5x"></span>
+								<span class="fa fa-envelope fa-5x social-icons"></span>
 							</a>
 						</div>
 						</div>
@@ -174,15 +180,15 @@
 						<div class="col-sm-6 col-lg-3">
 							<div class="text-center">
 							<a href="#">
-								<span class="fa fa-github fa-5x"></span>
+								<span class="fa fa-github fa-5x social-icons"></span>
 							</a>
 						</div>
 						</div>
 						<!-- Linkedin Column -->
-						<div class="col-sm-6 col-lg-3">
+						<div class="col-sm-6 col-lg-3" id="remove-akward-padding">
 							<div class="text-center">
 							<a href="#">
-								<span class="fa fa-linkedin fa-5x"></span>
+								<span class="fa fa-linkedin fa-5x social-icons"></span>
 							</a>
 						</div>
 						</div>
@@ -191,8 +197,12 @@
 		</section>
 	</main>
 
-	<footer class="text-right">
-		Copyright &copy; 2018 Blake. All Rights Reserved.
+	<footer class="text-center bg-dark fluid-container">
+		<span>Copyright &copy; 2018 Blake. All Rights Reserved.</span>
+		<blockquote class="blockquote text-center">
+		  <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+		  <span class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></span>
+	</blockquote>
 	</footer>
 
 	<!-- jQuery necessary for BS v4.0 JS plugins - must got 1st -->
